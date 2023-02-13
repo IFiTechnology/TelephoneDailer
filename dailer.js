@@ -5,7 +5,7 @@ class Telephone {
 
   }
   addPhoneNumber(observer) {
-    this.observers.add(observer);
+    this.observers.push(observer);
    
   }
   removePhoneNumber(observer) {
